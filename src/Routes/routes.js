@@ -2,7 +2,6 @@ import React from "react";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Cntctus from "../components/Services Accquisition Protocol/ContactUs/Contactus.js";
-import Pricing from "../components/Services Accquisition Protocol/Pricing/Pricing.js";
 import Abtus from "../components/Services Accquisition Protocol/AboutUs/Aboutus.js";
 import ConfirmationCode from "../components/Core/Account/ForgetPassword/ConfirmationCode/ConfirmationCode";
 import ForgetPassword from "../components/Core/Account/ForgetPassword/ForgetPassword.js";
