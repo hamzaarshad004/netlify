@@ -8,6 +8,8 @@ import ForgetPassword from "../components/Core/Account/ForgetPassword/ForgetPass
 import ConfirmNPass from "../components/Core/Account/ForgetPassword/CreateNewPassword/CreateNewPassword";
 import managesales from "../components/Services Accquisition Protocol/Manage/ManageSales/ManageSales";
 import manageinvent from "../components/Services Accquisition Protocol/Manage/ManageInventory/ManageInventory";
+import FeaturedProducts from "../components/Services Accquisition Protocol/Market/FeaturedProducts";
+import increased_sales from "../components/Services Accquisition Protocol/Market/IncreasedSales";
 import Home from "../components/Services Accquisition Protocol/Home/Home.js";
 class routes extends React.Component {
   render() {
@@ -15,9 +17,6 @@ class routes extends React.Component {
       <div className="App">
         <Router>
           <Switch>
-            <Route exact path="/Register" component={Register} />
-
-            <Route exact path="/SignIn" component={LoginView} />
             <Route
               exact
               path="/featured_product"
@@ -39,7 +38,7 @@ class routes extends React.Component {
               component={ConfirmNPass}
             />
             <Route exact path="/Contactus" component={Cntctus} />
-            <Route exact path="/Pricing" component={Pricing} />
+
             <Route exact path="/Aboutus" component={Abtus} />
           </Switch>
         </Router>
