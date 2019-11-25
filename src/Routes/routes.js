@@ -9,8 +9,6 @@ import ConfirmNPass from "../components/Core/Account/ForgetPassword/CreateNewPas
 import managesales from "../components/Services Accquisition Protocol/Manage/ManageSales/ManageSales";
 import manageinvent from "../components/Services Accquisition Protocol/Manage/ManageInventory/ManageInventory";
 import Home from "../components/Services Accquisition Protocol/Home/Home.js";
-import LoginView from "../components/Core/Account/Login/signIn_View";
-import Register from "../components/Core/Account/Register/Register";
 class routes extends React.Component {
   render() {
     return (
