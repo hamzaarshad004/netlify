@@ -23,7 +23,7 @@ class routes extends React.Component {
               component={FeaturedProducts}
             />
             <Route exact path="/Increased_sale" component={increased_sales} />
-            <Route exact path="/Home" component={Home} />
+            <Route exact path="/" component={Home} />
             <Route exact path="/ForgetPassword" component={ForgetPassword} />
             <Route exact path="/managesales" component={managesales} />
             <Route exact path="/manageInventory" component={manageinvent} />
