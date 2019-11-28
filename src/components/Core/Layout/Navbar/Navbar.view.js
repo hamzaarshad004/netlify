@@ -258,7 +258,7 @@ const NavbarView= props=> {
           >
             <MenuIcon />
           </Button>
-          <NavLink to="/Home" className={classes.search}  style={{color:"white",textDecoration: 'none'}} >
+          <NavLink to="/" className={classes.search}  style={{color:"white",textDecoration: 'none'}} >
           <Button  color="inherit" className={classes.search} noWrap>
           Home
             </Button>

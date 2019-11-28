@@ -118,7 +118,7 @@ const HomeView = props => {
                   tool. ... Track the source Nurture your leads Excite your
                   sales staff about each prospect.
                 </p>
-                <Link href="/managesales" variant="body1">
+                <NavLink to="/managesales" variant="body1">
                   Explore this feature.
                 </Link>
               </Typography>
@@ -154,7 +154,7 @@ const HomeView = props => {
                   tool. ... Track the source Nurture your leads Excite your
                   sales staff about each prospect
                 </p>
-                <Link href="/manageInventory" variant="body1">
+                <NavLink to="/manageInventory" variant="body1">
                   Explore this feature.
                 </Link>
               </Typography>
@@ -196,7 +196,7 @@ const HomeView = props => {
                   tool. ... Track the source Nurture your leads Excite your
                   sales staff about each prospect
                 </p>
-                <Link href="/Increased_sale" variant="body1">
+                <NavLink to="/Increased_sale" variant="body1">
                   Explore this feature.
                 </Link>
               </Typography>
@@ -232,7 +232,7 @@ const HomeView = props => {
                   tool. ... Track the source Nurture your leads Excite your
                   sales staff about each prospect
                 </p>
-                <Link href="/featured_product" variant="body1">
+                <NavLink to="/featured_product" variant="body1">
                   Explore this feature.
                 </Link>
               </Typography>
