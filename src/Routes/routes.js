@@ -15,7 +15,7 @@ class routes extends React.Component {
   render() {
     return (
       <div className="App">
-        <Router>
+        <Router onUpdate={() => window.scrollTo(0, 0)}>
           <Switch>
             <Route
               exact
