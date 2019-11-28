@@ -120,7 +120,7 @@ const HomeView = props => {
                 </p>
                 <NavLink to="/managesales" variant="body1">
                   Explore this feature.
-                </Link>
+                </NavLink>
               </Typography>
               <Divider />
             </Grid>
@@ -156,7 +156,7 @@ const HomeView = props => {
                 </p>
                 <NavLink to="/manageInventory" variant="body1">
                   Explore this feature.
-                </Link>
+                </NavLink>
               </Typography>
               <Divider />
             </Grid>
@@ -198,7 +198,7 @@ const HomeView = props => {
                 </p>
                 <NavLink to="/Increased_sale" variant="body1">
                   Explore this feature.
-                </Link>
+                </NavLink>
               </Typography>
               <Divider />
             </Grid>
@@ -234,7 +234,7 @@ const HomeView = props => {
                 </p>
                 <NavLink to="/featured_product" variant="body1">
                   Explore this feature.
-                </Link>
+                </NavLink>
               </Typography>
               <Divider />
             </Grid>
